@@ -6,11 +6,21 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screnns */
 @import "screens/login.css";
-body{
+@import "screens/friends.css";
+@import "screens/find.css";
+body{ 
+    color: #2e363e;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height:1000vh;
+}
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
 
