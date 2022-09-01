@@ -23,9 +23,9 @@
       </div>
     </div>
 
-    <header class="alt-haeder">
+    <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+        <a href="chats.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">태규</h1>
@@ -36,7 +36,45 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30 ,2022</div>
+
+      <div class="message-row">
+        <img
+          src="file:///C:/Users/%ED%95%9C%ED%83%9C%EA%B7%9C/Desktop/kokoa-clone-2022/screenshots/123.JPG"
+        />
+        <div class="message-row__content">
+          <span class="message__author">taekyu</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row , message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi nice to meet you</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/f2ee266306.js"
